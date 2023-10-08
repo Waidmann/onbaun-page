@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://onpkg.com/aos@next/dist/aos.css"/>
+    <style>
+        @media (max-width: 500px) {
+            .reverse-columns {
+                flex-direction: column-reverse;
+                display: flex;
+            }
+        }
+
+        .titled {
+            font-family: 'Merriweather', serif !important;
+            font-size: 58px !important;
+            font-weight: 400 !important;
+            line-height: 64px !important;
+        }
+
+        .subtitled {
+            font-family: 'Merriweather', serif !important;
+            font-size: 22px !important;
+            font-weight: 400 !important;
+            line-height: 36px !important;
+        }
+    </style>
+</head>
+
+<body>
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="https://onbaun.com">
+            <img src="./onbaun_logo.svg" width="112" height="28">
+        </a>
+    </div>
+
+    <div class="navbar-menu">
+
+        <div class="navbar-end">
+            <a class="navbar-item" href="#project">
+                PROJECT
+            </a>
+
+            <a class="navbar-item" href="#team">
+                TEAM
+            </a>
+
+            <a class="navbar-item" href="#status">
+                STATUS
+            </a>
+
+            <a class="navbar-item" href="#contact">
+                CONTACT
+            </a>
+
+        </div>
+    </div>
+</nav>
+
+<section class="hero is-white is-fullheight" id="project">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns  is-vcentered reverse-columns">
+                <div class="column
+          is-10-mobile
+          is-10-tablet
+          is-5-desktop
+          is-5-widescreen
+          is-5-fullhd " data-aos="fade-down">
+                    <h1 class="title titled mb-6">
+                        Grow tasty veggies <span id="typewriter"></span>
+                    </h1>
+                    <h2 class="subtitled subtitle">
+                        We are building a hydroponic garden that is small enough to fit in a shoebox and efficient
+                        enough to make a great harvest.
+                    </h2>
+                </div>
+                <div data-aos="fade-right" class="column
+          is-10-mobile
+          is-10-tablet
+          is-4-desktop
+          is-7-widescreen
+          is-4-fullhd is-offset-1-fullhd">
+                    <figure class="image is-square">
+                        <img src="product/product_1.jpg">
+                    </figure>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="hero is-white is-fullheight" id="team">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div data-aos="fade-left" class="column is-10-mobile is-offset-1-mobile">
+                    <figure class="image is-square">
+                        <img src="team/paul.jpg">
+                    </figure>
+
+                    <h1 class="titled title is-1 mb-6">
+                        Paul
+                    </h1>
+                    <h2 class="subtitled subtitle">
+                        Vision & Product design
+                    </h2>
+                </div>
+
+                <div data-aos="fade-left" class="column is-10-mobile is-offset-1-mobile">
+                    <figure class="image is-square">
+                        <img src="team/aaron.jpg">
+                    </figure>
+
+                    <h1 class="titled title is-1 mb-6">
+                        Aaron
+                    </h1>
+                    <h2 class="subtitled subtitle">
+                        Strategy & Software Development
+                    </h2>
+                </div>
+
+                <div data-aos="fade-left" class="column is-10-mobile is-offset-1-mobile">
+                    <figure class="image is-square">
+                        <img src="team/benedict.jpg">
+                    </figure>
+
+                    <h1 class="titled title is-1 mb-6">
+                        Benedict
+                    </h1>
+                    <h2 class="subtitled subtitle">
+                        Engineering & Electronics
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="hero is-white is-fullheight" id="status">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns  is-vcentered reverse-columns">
+                <div data-aos="fade-down" class="column
+          is-10-mobile is-offset-1-mobile
+          is-10-tablet is-offset-1-tablet
+          is-4-desktop is-offset-1-desktop
+          is-4-widescreen is-offset-1-widescreen
+          is-4-fullhd is-offset-1-fullhd" data-aos="fade-up">
+                    <figure class="image">
+                        <img src="helpers/austrian_startups.jpg">
+                    </figure>
+                    <figure class="image">
+                        <img src="helpers/aws.png">
+                    </figure>
+                </div>
+
+                <div data-aos="fade-right" class="column
+          is-10-mobile is-offset-1-mobile
+          is-10-tablet is-offset-1-tablet
+          is-5-desktop is-offset-1-desktop
+          is-5-widescreen is-offset-1-widescreen
+          is-5-fullhd is-offset-1-fullhd">
+                    <h1 class="title titled is-1 mb-6">
+                        Status & Support
+                    </h1>
+                    <h2 class="has-text-weight-light">
+                        With funds from an AWS First Grant, we have developed a very capable v1 of our product and are
+                        now working out kinks to get it running anywhere.
+                        Special thanks to austrian startups and their entrepreneurial leadership program.
+                    </h2>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="hero is-medium has-text-centered" id="contact">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns is-centered">
+                <div data-aos="zoom-in-up" class="column is-8">
+                    <h1 class="title titled is-1 mb-6">
+                        Contact
+                    </h1>
+                    <h2 class="subtitle subtitled">
+                        Email us at team@onbaun.com or subscribe to our newsletter:
+                    </h2>
+                </div>
+            </div>
+
+            <div class="columns is-centered">
+                <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    #mc_embed_signup {
+                        background: #fff;
+                        false;
+                        clear: left;
+                        font: 14px Helvetica, Arial, sans-serif;
+                        width: 600px;
+                    }
+                </style>
+                <div id="mc_embed_signup">
+                    <form action="https://onbaun.us21.list-manage.com/subscribe/post?u=141c622932f034895cfc1d2e7&amp;id=030d3cb5b0&amp;f_id=0000e6e6f0"
+                          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                          class="validate" target="_blank">
+                        <div id="mc_embed_signup_scroll">
+                            <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span
+                                    class="asterisk">*</span></label><input type="email" name="EMAIL"
+                                                                            class="required email" id="mce-EMAIL"
+                                                                            required="" value=""><span
+                                    id="mce-EMAIL-HELPERTEXT" class="helper_text"></span></div>
+                            <div id="mce-responses" class="clear foot">
+                                <div class="response" id="mce-error-response" style="display: none;"></div>
+                                <div class="response" id="mce-success-response" style="display: none;"></div>
+                            </div>
+                            <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                                <input type="text" name="b_141c622932f034895cfc1d2e7_030d3cb5b0" tabindex="-1" value="">
+                            </div>
+                            <div class="optionalParent">
+                                <div class="clear foot">
+                                    <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button"
+                                           value="Subscribe">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <script type="text/javascript"
+                        src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+                <script type="text/javascript">(function ($) {
+                    window.fnames = new Array();
+                    window.ftypes = new Array();
+                    fnames[0] = 'EMAIL';
+                    ftypes[0] = 'email';
+                    fnames[1] = 'FNAME';
+                    ftypes[1] = 'text';
+                    fnames[2] = 'LNAME';
+                    ftypes[2] = 'text';
+                    fnames[3] = 'ADDRESS';
+                    ftypes[3] = 'address';
+                    fnames[4] = 'PHONE';
+                    ftypes[4] = 'phone';
+                    fnames[5] = 'BIRTHDAY';
+                    ftypes[5] = 'birthday';
+                }(jQuery));
+                var $mcj = jQuery.noConflict(true);</script>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="columns is-centered">
+        <div class="column is-centered">
+            <p><strong>Imprint</strong></p>
+            <p>Aaron Waidmann</p>
+            <p>Pappenheimgasse 1/1/10</p>
+            <p>1200 Wien</p>
+        </div>
+
+        <div class="column is-centered">
+            <p><strong>Contact</strong></p>
+            <p>aaron@waidmann.dev</p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.13.1/core.min.js"></script>
+<script>
+    const typeWriter = new Typewriter('#typewriter', {
+        //strings: ['in the garden', 'on the balcony', 'in your bedroom', 'everywhere.'],
+        autoStart: true,
+        cursor: "",
+        pauseFor: 1000
+    });
+
+    typeWriter
+        .typeString('in the <s>garden</s>')
+        .pauseFor(1000)
+        .deleteAll()
+        .typeString('on the balcony')
+        .pauseFor(1000)
+        .deleteAll()
+        .typeString('in your bedroom')
+        .pauseFor(1000)
+        .deleteAll()
+        .typeString('everywhere.')
+        .start();
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        once: true
+    });
+</script>
+</body>
+
+</html>
